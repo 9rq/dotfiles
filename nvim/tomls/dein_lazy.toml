@@ -1,2 +1,3 @@
 [[plugins]]
-repo = 'tpope/vim-commentary'
+repo = 'deoplete-plugins/deoplete-jedi'
+on_ft = 'python'

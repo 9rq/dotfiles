@@ -2,13 +2,13 @@ install=true
 zsh=true
 nvim=true
 
-if [install]; then
+if $install; then
     # homeにシンボリックリンクを貼り、環境パスを追加する
-    if [zsh]; then
+    if $zsh; then
         ln -s ${HOME}/.config/dotfiles/zsh/.zshenv ${HOME}/.zshenv
     fi
 
-    if [nvim]; then
+    if $nvim; then
         ln -s ${HOME}/.config/dotfiles/nvim/* ${HOME}/.config/nvim
     fi
 else

@@ -28,6 +28,7 @@ nnoremap Y y$
 "key mapping------------------------------
 noremap ; :
 let mapleader = " "
+inoremap <silent> jj <ESC>
 "ブラックホールレジスタの指定
 nnoremap x "_x
 nnoremap X "_X

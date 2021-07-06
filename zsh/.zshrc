@@ -23,8 +23,6 @@ alias ll='ls -alG'
 alias sl='ls -G'
 alias ls='ls -G'
 alias :q='exit'
-alias beamer='nvim prog.tex'
-alias wifi='/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s'
 alias cd..='cd ..'
 alias pingg='ping 8.8.8.8'
 
